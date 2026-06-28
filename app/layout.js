@@ -7,7 +7,8 @@ export const metadata = {
   keywords: ["preloved", "thrift", "fashion", "sukabumi", "cute clothes", "baju bekas", "COD"],
   openGraph: {
     title: "cute.clothes | Preloved & Thrift Fashion Sukabumi",
-    description: "Toko preloved dan thrift fashion terpercaya di Sukabumi. Baju berkualitas, harga terjangkau, bisa COD!",
+    description:
+      "Toko preloved dan thrift fashion terpercaya di Sukabumi. Baju berkualitas, harga terjangkau, bisa COD!",
     type: "website",
   },
 };
@@ -23,7 +24,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="min-h-full flex flex-col" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
+      <body
+        className="min-h-full flex flex-col"
+        style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
+      >
         {children}
       </body>
     </html>
