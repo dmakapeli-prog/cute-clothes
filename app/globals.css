@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-pink: #F472B6;
+  --color-light-pink: #FCE7F3;
+  --color-dark-pink: #DB2777;
+  --color-dark-text: #1F2937;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1F2937;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== Marquee ===== */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+/* ===== Slide in drawer ===== */
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+.slide-in-right {
+  animation: slideInRight 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* ===== Fade in up ===== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* ===== Float ===== */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+/* ===== Pulse glow ===== */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(244, 114, 182, 0.45); }
+  50% { box-shadow: 0 0 18px 4px rgba(244, 114, 182, 0.18); }
+}
+.pulse-glow {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+/* ===== Sparkle ===== */
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1) rotate(180deg); }
+}
+.animate-sparkle {
+  animation: sparkle 2.2s ease-in-out infinite;
+}
+
+/* ===== Bounce subtle ===== */
+@keyframes bounceSm {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+.bounce-sm {
+  animation: bounceSm 1.8s ease-in-out infinite;
+}
+
+/* ===== Countdown flip ===== */
+@keyframes flipIn {
+  from { transform: rotateX(90deg); opacity: 0; }
+  to { transform: rotateX(0deg); opacity: 1; }
+}
+.flip-in {
+  animation: flipIn 0.4s ease-out;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #FCE7F3; }
+::-webkit-scrollbar-thumb { background: #F472B6; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #DB2777; }
+
+/* ===== Hide scrollbar for category ===== */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

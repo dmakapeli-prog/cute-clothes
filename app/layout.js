@@ -1,0 +1,39 @@
+import "./globals.css";
+
+export const metadata = {
+  title: "cute.clothes | Preloved & Thrift Fashion Sukabumi",
+  description:
+    "Toko preloved dan thrift fashion terpercaya di Sukabumi. Baju berkualitas, harga terjangkau, bisa COD!",
+  keywords: ["preloved", "thrift", "fashion", "sukabumi", "cute clothes", "baju bekas", "COD"],
+  openGraph: {
+    title: "cute.clothes | Preloved & Thrift Fashion Sukabumi",
+    description:
+      "Toko preloved dan thrift fashion terpercaya di Sukabumi. Baju berkualitas, harga terjangkau, bisa COD!",
+    type: "website",
+  },
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="id" className="h-full antialiased">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body
+        className="min-h-full flex flex-col"
+        style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
