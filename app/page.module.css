@@ -61,11 +61,11 @@
 }
 
 .topBarLink:hover {
-  color: #DB2777;
+  color: #7C3AED;
 }
 
 .topBarOrder {
-  color: #DB2777;
+  color: #7C3AED;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@
 
 /* 2. PROMO BAR MARQUEE */
 .promoBar {
-  background-color: #DB2777;
+  background-color: #7C3AED;
   color: #fff;
   padding: 10px 0;
   font-size: 0.9rem;
@@ -145,7 +145,7 @@
 
 .searchWrapper:focus-within {
   background: #fff;
-  border-color: #DB2777;
+  border-color: #7C3AED;
   box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.1);
 }
 
@@ -160,7 +160,7 @@
 }
 
 .searchBtn {
-  background: #DB2777;
+  background: #7C3AED;
   color: #fff;
   border: none;
   width: 40px;
@@ -174,7 +174,7 @@
 }
 
 .searchBtn:hover {
-  background: #BE185D;
+  background: #6D28D9;
 }
 
 .navIcons {
@@ -193,7 +193,7 @@
 }
 
 .iconBtn:hover {
-  color: #DB2777;
+  color: #7C3AED;
 }
 
 .cartBadge {
@@ -222,8 +222,8 @@
 
 .btnLogin {
   background: transparent;
-  color: #DB2777;
-  border: 2px solid #DB2777;
+  color: #7C3AED;
+  border: 2px solid #7C3AED;
   padding: 8px 24px;
   border-radius: 8px;
   font-weight: 700;
@@ -232,13 +232,13 @@
 }
 
 .btnLogin:hover {
-  background: #DB2777;
+  background: #7C3AED;
   color: #fff;
 }
 
 /* 4. HERO BANNER */
 .hero {
-  background: linear-gradient(135deg, #831843, #111827);
+  background: linear-gradient(135deg, #4c1d95, #111827);
   padding: 80px 5%;
   overflow: hidden;
   position: relative;
@@ -324,7 +324,7 @@
 
 .btnOutlineWhite:hover {
   background: #fff;
-  color: #831843;
+  color: #4c1d95;
 }
 
 /* HERO MOCKUPS */
@@ -441,14 +441,14 @@
 }
 
 .linkAll {
-  color: #DB2777;
+  color: #7C3AED;
   font-weight: 800;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .linkAll:hover {
-  color: #BE185D;
+  color: #6D28D9;
   text-decoration: underline;
 }
 
@@ -481,7 +481,7 @@
 }
 
 .categoryPill:hover {
-  border-color: #DB2777;
+  border-color: #7C3AED;
   box-shadow: 0 10px 20px rgba(124, 58, 237, 0.1);
   transform: translateY(-5px);
 }
@@ -602,8 +602,8 @@
   margin-top: auto;
   width: 100%;
   background: transparent;
-  color: #DB2777;
-  border: 2px solid #DB2777;
+  color: #7C3AED;
+  border: 2px solid #7C3AED;
   padding: 12px;
   border-radius: 8px;
   font-weight: 800;
@@ -612,7 +612,7 @@
 }
 
 .productCard:hover .btnAddCart {
-  background: #DB2777;
+  background: #7C3AED;
   color: #fff;
 }
 
@@ -638,7 +638,7 @@
 }
 
 .promoRight {
-  background: linear-gradient(135deg, #DB2777, #831843);
+  background: linear-gradient(135deg, #7C3AED, #4c1d95);
 }
 
 .promoBadge {
@@ -708,7 +708,7 @@
 
 .btnWhitePurple {
   background: #fff;
-  color: #831843;
+  color: #4c1d95;
   padding: 16px 36px;
   border-radius: 8px;
   font-weight: 800;
@@ -748,7 +748,7 @@
   width: 60px;
   height: 60px;
   background: #f5f3ff;
-  color: #DB2777;
+  color: #7C3AED;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -825,7 +825,7 @@
 }
 
 .socialBox span:hover {
-  background: #DB2777;
+  background: #7C3AED;
 }
 
 .footerHeading {
